@@ -1,0 +1,13 @@
+rock_manifest = {
+   ['kong-plugin-badrequest-0.1.0-1.rockspec'] = "52be4f3f55a967bfe7a3309e371edc7b",
+   lua = {
+      kong = {
+         plugins = {
+            badrequest = {
+               ['handler.lua'] = "1b7e08e0329628f30d34e240f0a19f9b",
+               ['schema.lua'] = "6b88ce6b23fef5d8b73661bfefd9da12"
+            }
+         }
+      }
+   }
+}
